@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    }
+  
+  .navbar {
+    background-color: #f45c5c;
+    overflow: hidden;
+  }
+  
+  .navbar a, .navbar button {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+    margin: 5px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover, .navbar button:hover {
+    background-color: #ffffff;
+    color: black;
+  }
+  
+  .navbar button {
+    float: left;
+    background-color: #4CAF50;
+    border: none;
+    cursor: pointer;
+    padding: 12px 16px;
+  }
+
+  .profil {
+    display: flex;
+    min-width: 500px;
+    height: 100%;
+    margin-top: 20px;
+  }
+  
+.profil-kram {
+    width: 100%;
+}
+
+.profil-bild {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding: 50px
+}
+
+.profil-bild-img {
+    height: 150px;
+    width: 150px;
+}
+
+.profil-stats {
+    margin-top: 15px;
+ 
+}
+ 
+.flexbox {
+  display:flex;
+  justify-content: center;
+}
+
+.stat{
+  margin-right: 10px;
+}
+
+.gallery{
+  background-color: #ffffff;
+  display:flex;
+  justify-content: center;
+}
+
+.column{
+  margin-top: 2px;
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery-img{
+  width: 300px;
+  height: 300px;
+  margin: 2px;
+}
