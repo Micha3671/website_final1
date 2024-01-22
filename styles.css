@@ -86,10 +86,16 @@ body {
   margin: 2px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .navbar {
     padding: 10px;
     background-color: var(--secondary-color);
   }
 }
 
+@media screen and (max-width: 1000px) {
+  .profil-bild-img {
+    height: 50px;
+    width: 50px;
+  }
+}
