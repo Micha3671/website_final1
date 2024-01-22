@@ -74,12 +74,6 @@ body {
   justify-content: center;
 }
 
-.column{
-  margin-top: 2px;
-  display: flex;
-  flex-direction: column;
-}
-
 .gallery-img{
   width: 300px;
   height: 300px;
@@ -95,6 +89,13 @@ body {
 
 @media screen and (max-width: 1000px) {
   .profil-bild-img {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .gallery-img {
     height: 50px;
     width: 50px;
   }
