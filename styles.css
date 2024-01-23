@@ -72,6 +72,7 @@ body {
   background-color: #ffffff;
   display:flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .gallery-img{
