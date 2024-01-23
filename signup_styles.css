@@ -1,49 +1,32 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
     margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    font-family: Arial, sans-serif;
+    }
+  
+  .navbar {
+    background-color: #f45c5c;
+    overflow: hidden;
   }
   
-  #container {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    width: 300px;
-  }
-  
-  label {
+  .navbar a, .navbar button {
+    float: right;
     display: block;
-    margin-bottom: 8px;
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+    margin: 5px;
+    text-decoration: none;
   }
   
-  input {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 16px;
-    box-sizing: border-box;
+  .navbar a:hover, .navbar button:hover {
+    background-color: #ffffff;
+    color: black;
   }
   
-  button {
-    background-color: #553ed4;
-    color: #fff;
-    padding: 10px;
+  .navbar button {
+    float: left;
+    background-color: #4CAF50;
     border: none;
-    border-radius: 4px;
     cursor: pointer;
-    width: 100%;
-  }
-  
-  button:hover {
-    background-color: #45a049;
-  }
-  
-  #result {
-    margin-top: 20px;
-    white-space: pre-line;
+    padding: 12px 16px;
   }
